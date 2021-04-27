@@ -8,4 +8,29 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    override fun onStart() {
+        super.onStart()
+        print("-> activity started")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        print("-> activity resumed")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        print("-> activity paused")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        print("-> activity stopped")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        print("-> activity restarting")
+    }
 }
