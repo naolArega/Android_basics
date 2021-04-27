@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBasics">
+        <activity android:name=".ChainsGuidesActivity"></activity>
+        <activity android:name=".ConstraintLayoutActivity" />
+        <activity android:name=".LinearLayoutActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
