@@ -50,7 +50,7 @@ class DragDropActivity : AppCompatActivity() {
             DragEvent.ACTION_DROP -> {
                 val item = dragEvent.clipData.getItemAt(0)
                 val dragData = item.text
-                Toast.makeText(this, "You dragged $dragData", Toast.LENGTH_LONG)
+                Toast.makeText(this, "You dragged $dragData", Toast.LENGTH_LONG).show()
 
                 view.invalidate()
 
